@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive_challenge</title>
+    <style>
+        .box1{
+            background-color: rgb(248, 6, 6);
+            color: white;
+            padding: 10px;
+            border: 5%;
+        }
+        .box2{
+            background-color: rgba(221, 18, 18, 0.822);
+            color: white;
+            padding: 10px;
+            border: 5%;
+        }
+        .box3{
+            background-color: rgba(194, 36, 36, 0.87);
+            color: white;
+            padding: 10px;
+            border: 5%;
+        }
+        .box4{
+            background-color: rgb(245, 147, 108);
+            color: white;
+            padding: 10px;
+            border: 5%;
+        }
+        .box5{
+            background-color: magenta;
+            color: white;
+            padding: 10px;
+            border: 5%;
+        }
+        .box6{
+            background-color: mediumblue;
+           color: white;
+            padding: 10px;
+            border: 5%;
+        }
+        .box7{
+            background-color: royalblue;
+            color: white;
+            padding: 10px;
+            border: 5%;
+        }
+        .p{
+            color: darkblue;
+        }
+        .c{
+            color: rgb(0, 191, 255);
+        }
+        .ch{
+            text-align: center;
+            width: 15%;
+            height: 25%;
+           padding: 25px 0 25px 0;
+            float: left;
+            clear: none;
+        }
+        @media all and (max-width: 800px) { 
+    #b1,#b2,#b3,#b4,#b5,#b6
+    {
+        width:33.3%;
+    }
+}
+
+@media all and (max-width: 450px) { 
+    #b1,#b2,#b3,#b4,#b5,#b6
+    {
+        width:50%;
+    }
+}
+
+@media all and (max-width: 500px) { 
+    #b1,#b2,#b3,#b4,#b5,#b6
+    {
+        width:100%;
+    }
+}
+
+        
+    </style>
+</head>
+<body>
+    <h1 class="c">This is a challenge for media query or Responsive</h1>
+    <h2 class="p">This page is belong to Jay Prakash Mangal</h2>
+    <hr>
+    <div class="ch">
+        <div class="box1" id="b1">This is a box-1</div>
+        <br>
+        <div class="box2" id="b2">This is a box-2</div>
+        <br>
+        <div class="box3" id="b3">This is a box-3</div>
+        <br>
+        <div class="box4" id="b4">This is a box-4</div>
+        <br>
+        <div class="box5" id="b5">This is a box-5</div>
+        <br>
+        <div class="box6" id="b6">This is a box-6</div>
+        <br>
+        <div class="box7" id="b7">This is a box-7</div>
+    </div>
+</body>
+</html>
